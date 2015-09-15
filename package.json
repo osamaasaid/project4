@@ -1,0 +1,27 @@
+{
+  "name": "project4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamaasaid/project4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osamaasaid/project4/issues"
+  },
+  "homepage": "https://github.com/osamaasaid/project4#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cheerio": "^0.19.0",
+    "ejs": "^2.3.4",
+    "express-ejs-layouts": "^1.1.0",
+    "request": "^2.61.0",
+    "twitter": "^1.2.5"
+  }
+}
