@@ -4,6 +4,16 @@ body {
   padding-top: 70px;
 }
 
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+  border-color: transparent;
+}
+
 h1   {
   color: silver;
   text-align: center;
@@ -15,6 +25,16 @@ h2   {
    font-family: 'Yanone Kaffeesatz', sans-serif;
    color: silver;
    padding-left: 30px;
+}
+
+h3    {
+  color: silver;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
 }
 
 
