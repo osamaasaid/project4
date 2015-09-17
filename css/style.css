@@ -1,6 +1,6 @@
 body {
-  background-color: #1E1F3A;
-  overflow: auto;
+/*  background-color: #2B3141;
+*/  overflow: auto;
   padding-top: 70px;
 }
 
@@ -40,6 +40,12 @@ a {
 
 .welcome  {
   padding: auto;
+}
+
+#nyt    {
+  padding-top: 30px;
+  max-height: 400px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .tweets {

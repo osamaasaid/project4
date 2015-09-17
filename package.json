@@ -1,7 +1,7 @@
 {
   "name": "project4",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project4 is an app displays breaking news around the world.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,11 +17,21 @@
   },
   "homepage": "https://github.com/osamaasaid/project4#readme",
   "dependencies": {
-    "body-parser": "^1.13.3",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.0",
     "cheerio": "^0.19.0",
     "ejs": "^2.3.4",
+    "express": "^4.13.3",
     "express-ejs-layouts": "^1.1.0",
+    "mongoose": "^4.1.7",
+    "newyorktimes": "0.0.2",
+    "nodemailer": "^1.4.0",
+    "pg": "^4.4.1",
+    "pg-hstore": "^2.3.2",
     "request": "^2.61.0",
+    "router": "^1.1.3",
+    "sequelize": "^3.8.0",
     "twitter": "^1.2.5"
-  }
+  },
+  "devDependencies": {}
 }
