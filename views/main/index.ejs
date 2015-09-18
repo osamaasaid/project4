@@ -1,0 +1,33 @@
+<div class="welcome">
+      <h1>Stay up to date with the latest news from around the world!</h1>
+    </div>
+
+  <div class="container app">
+
+    <div class="row">
+
+      <div class="col-md-6 nyt">
+       <div id="nyt">
+          <img src="/public/images/nytimes.gif">
+          <h2 id="times">New York Times</h2>
+       </div>
+         <% results.forEach(function(news){ %>
+    <ul>
+      <li id="articles"><a href="<%= news.url %>" target="_blank"><%= news.title %></a></li>
+    </ul>
+  <% }); %>
+
+
+
+      </div>
+           <div class="col-md-6 tweets">
+              <h2><i class="fa fa-twitter-square"></i>  Twitter now </h2>
+                 <a class="twitter-timeline" href="https://twitter.com/osamasapp/lists/news" data-widget-id="643561403866050560">Tweets from https://twitter.com/osamasapp/lists/news</a>
+                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                 <div id="sports">
+                   <a class="twitter-timeline" href="https://twitter.com/osamasapp/lists/sports" data-widget-id="644631424209960960">Tweets from https://twitter.com/osamasapp/lists/sports</a>
+                   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           </div>
+    </div>
+  </div>
+

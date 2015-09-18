@@ -4,6 +4,7 @@
   <title>news</title>
   <link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css">
@@ -21,45 +22,20 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand brand" href="#"> <strong>Project4</strong> </a>
+        <a class="navbar-brand brand" href="/"> <strong>Project4</strong> </a>
       </div>
       <!-- right side navbar -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Logout</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Signup</a></li>
+
+          <li><a href="/contact">Contact</a></li>
 
         </ul>
       </div>
     </div>
   </nav>
   <!-- navbar end -->
-    <div class="welcome">
-      <h1>Stay up to date with the latest news from around the world!</h1>
-    </div>
-
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-md-6 nyt">
-
-          <%= results.title %>
-          <%= <a href="results.url "> %>
-
-
-
-      </div>
-           <div class="col-md-6 tweets">
-              <h2><i class="fa fa-twitter-square"></i>  Twitter now </h2>
-                 <a class="twitter-timeline" href="https://twitter.com/osamasapp/lists/news" data-widget-id="643561403866050560">Tweets from https://twitter.com/osamasapp/lists/news</a>
-                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-           </div>
-    </div>
-  </div>
-
+  <%- body %>
 
 
 

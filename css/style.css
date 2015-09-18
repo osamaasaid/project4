@@ -1,25 +1,63 @@
 body {
-/*  background-color: #2B3141;
-*/  overflow: auto;
+  background-color: #0B367F;
+  overflow: auto;
   padding-top: 70px;
+
 }
+
+.app   {
+    background-color: #1967EE;
+
+
+}
+
 
 .brand {
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
+
+
 .navbar {
   background-color: black;
   border-color: transparent;
 }
+
+
+legend  {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+
+
+p   {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+#btn  {
+  text-align: center;
+}
+
+.message  {
+  height: 300px;
+}
+
+
 
 h1   {
   color: silver;
   text-align: center;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 50px;
+
   }
+
+
 
 h2   {
    font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -27,9 +65,14 @@ h2   {
    padding-left: 30px;
 }
 
+
+
+
 h3    {
   color: silver;
 }
+
+
 
 a {
     font-family: 'Montserrat', sans-serif;
@@ -38,16 +81,57 @@ a {
 }
 
 
+
 .welcome  {
   padding: auto;
+  text-align: center;
 }
+
+
+.nyt   {
+    background-color: #1967EE;
+
+}
+
 
 #nyt    {
   padding-top: 30px;
-  max-height: 400px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  display: inline-block;
+
 }
+
+
+#nyt *    {
+  display: inline-block;
+  padding-left: 40px;
+  padding-bottom: 20px;
+
+}
+
+
 
 .tweets {
   padding-top: 30px;
+  padding-right: 20px;
+  background-color: #1967EE;
+
+
+}
+
+
+#articles {
+  font-size: 15px;
+
+}
+
+
+#times  {
+padding-left: -20px;
+font-size: 45px;
+
+}
+
+#sports  {
+  padding-top: 20px;
 }
